@@ -1,0 +1,11 @@
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 100;
+  padding-bottom: 100;
+}
+
+.nav > div {
+  margin: 10;
+}

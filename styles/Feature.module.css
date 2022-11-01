@@ -1,0 +1,86 @@
+.container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.title {
+  display: block;
+  font-size: 55px;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  text-align: center;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.gold {
+  color: #cbb26a;
+}
+
+.cardContainer {
+  text-align: left;
+  display: flex;
+}
+
+.card {
+  padding-right: 2%;
+}
+
+.cardTitle {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.cardContent {
+  display: block;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 200%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #cbb26a;
+  padding: 1.7%;
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.micro {
+  font-style: italic;
+}
+
+@media (min-width: 576px) {
+  .container {
+      width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      width: 1140px;
+  }
+}
